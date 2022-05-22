@@ -1,0 +1,198 @@
+.body-main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: #93A9D1;
+    width: 100%;
+    align-items: center;
+    color: white;
+    
+}
+
+.header-image{
+    width: 20vw;
+}
+
+.img-logo{
+    height: 70px;
+    margin-left: 30px;
+}
+
+.barra-nav{
+    height: 70px;
+    width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.link-header{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.button-header{
+    height: 70px;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cadastro-header, .btn-login-header{
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.container-landign{
+    
+    padding-top: 70px;
+}
+
+.container-home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.texto-home{
+    padding-right: 30px;
+}
+
+.texto-home h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.texto-home h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.image-home{
+    width: 350px;
+}
+
+.container-catalogo{
+    background-color: #E6EEFF;
+    height: 90vh;
+}
+
+.carrosel-catalogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.img-catalogo{
+    width: 40vw; 
+    height: 70vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-joias{
+    width: 20vw;
+    height: 50vh;
+}
+
+.texto-carrosel{
+    text-align: justify;
+    width: 20vw;
+    line-height: 20px;
+}
+
+h3{
+    direction: rtl;
+    padding-top: 20px;
+    color: #FF9900;
+    margin-right: 20px;
+}
+
+a{
+    color: #FF9900;
+}
+
+.container-quemsomos{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.info-quemsomos{
+    width: 30vw;
+    height: 55vh;
+    background-color: #EDEDED;
+    text-align: justify;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.img-quemsomos{
+    width: 400px;
+    
+}
+
+.info-quemsomos h2{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.texto-quemsomos{
+    margin: 10px;
+
+}
+
+.container-contatos{
+    background-color: #E6EEFF;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.texto-contatos{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.box-contatos{
+    display:flex ;
+}
+
+.contatos-insta, .contatos-wpp{
+    background-color: white;
+    align-items: center;
+    color:black;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contatos-insta{
+    margin-right: 30px;
+}
+
+.contatos-wpp{
+    margin-left: 30px;
+}
