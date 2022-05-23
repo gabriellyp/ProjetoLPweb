@@ -7,11 +7,13 @@ import {Home} from './Paginas/Home/Home'
 import {Barranav} from './Componentes/Barranav/barranav'
 import {Carrousel} from './Componentes/Carrousel/carrousel'
 
+
+
 //Página responsavel por todas as paginas do site
 function App() {
   return (
     <ChakraProvider>
-       <Carrousel/> 
+       <Home/> 
     </ChakraProvider>
 
   );

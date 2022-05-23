@@ -1,22 +1,17 @@
-import pedra from '../../Assets/imagens/pedraequi.png'
 import './carrousel.css'
+import {Produto} from '../Produtos/Produto'
 
-export function Carrousel(){
+export function Carrousel(props){
+    var produtos =[];
+
+    for(let x=0; x<props.produtos.length;x++){
+        produtos.push(<Produto produto={props.produtos[x]}/>);
+    }
+
+
     return(
-        <div className='carrosel'>
-                <div className='item'>
-                    <div className='img-card'>
-                        <img src={pedra}/>
-                    </div>
-                    <div className='info-card'>
-                        <span className='nome'>Pedra Natural Ágata</span>
-                        <span className='preco'>R$ 120</span>
-                        <div className='btn-comprar'>
-                            <button>Comprar</button>
-                        </div>                        
-                    </div>
-
-                </div>
+        <div className='catalogo'>
+                {produtos}
         </div>
     )
 }

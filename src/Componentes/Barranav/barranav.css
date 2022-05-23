@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 
 .main-header{
     display: flex;
@@ -9,12 +11,14 @@
 }
 
 .input-busca{
-    margin-left: 20px;
-    font-size: 16;
+    display: flex;
+    justify-content: center;
+    width: 20%;
 }
 .header-image{
-    width: 20vw;
-    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 .img-logo{
@@ -31,12 +35,13 @@
 }
 
 
-.button-header{
+.group-button-header{
     height: 70px;
-    width: 20vw;
+    width: 20%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 
 .icones-barranav{
@@ -48,6 +53,7 @@
     padding-top: 70px;
     text-align: center;
     display: flex;
+    position: fixed;
 }
 
 .barra-nav{
@@ -55,6 +61,14 @@
     height: 70px;
     width: 100vw;
     display: flex;
-    color: black;
     font-weight: 400;
+}
+
+.link-header{
+    color: black;
+    margin: 0 30px;
+}
+
+a:hover{
+    color: #93A9D1;
 }
