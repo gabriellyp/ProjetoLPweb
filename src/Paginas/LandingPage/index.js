@@ -1,4 +1,5 @@
 import React from "react"
+import {Button} from 'react'
 import "./landign.css"
 import logo from '../../Assets/imagens/Logo.png'
 import florprincipal from '../../Assets/imagens/FlorHome.png'
@@ -83,12 +84,12 @@ export function LandingPage(){
             <div class="contatos-insta">
             <img/>
             <h4>@lua_de.prata</h4>
-            <button>Me chama</button>
+            <button type='button' href="https://www.instagram.com/lua_de.prata/" className="btn-mechama">Me chama</button>
         </div>
-        <div class="contatos-wpp">
+        <div type="button" class="contatos-wpp">
             <img/>
             <h4>(84)99000-0009</h4>
-            <button>Me chama</button>
+            <button type="button" className="btn-mechama" href="https://api.whatsapp.com/send/?phone=5584996267652&text&app_absent=0">Me chama</button>
         </div>
         </div>
 

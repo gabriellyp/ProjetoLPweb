@@ -51,6 +51,16 @@
     margin: 0 10px;
 }
 
+.btn-cadastro-header{
+    background-color: #fff;
+    border-radius: 10px;
+    color: #93A9D1;
+}
+.btn-login-header{
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
 .container-landign{
     
     padding-top: 70px;
@@ -195,4 +205,18 @@ a{
 
 .contatos-wpp{
     margin-left: 30px;
+}
+
+h4{
+    padding-bottom: 5px;
+}
+
+.btn-mechama{
+    background-color: #93A9D1;
+    border: 1px solid #93A9D1;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
 }
