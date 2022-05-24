@@ -1,3 +1,30 @@
 .breadcrumb{
-    padding-top: 140px;
+    padding-top: 145px;
+    font-size: 18px;
+    margin-left: 20px;
 }
+
+.container-info-produtos{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    background: #FEFEFE;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.info-produtos{
+    width: 400px;
+    padding: 20px;
+
+}
+
+.card-info{
+    margin: auto;
+}
+
+.imagem-produtos-info{
+    height: 400px;
+}
+
