@@ -63,3 +63,4 @@ export function Cadastro(){
     
     )
 }
+export default Cadastro

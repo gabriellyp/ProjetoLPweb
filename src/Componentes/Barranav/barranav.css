@@ -1,7 +1,7 @@
 @import '~antd/dist/antd.css';
 
 
-.main-header{
+.main-header-barra{
     display: flex;
     position: fixed;
     z-index: 1;
@@ -14,8 +14,9 @@
     display: flex;
     justify-content: center;
     width: 20%;
+    margin-left: 20px;
 }
-.header-image{
+.header-image-barra{
     width: 60%;
     display: flex;
     justify-content: center;
@@ -25,15 +26,6 @@
     height: 70px;
     margin-left: 30px;
 }
-
-.barra-nav{
-    height: 70px;
-    width: 60vw;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
 
 .group-button-header{
     height: 70px;
@@ -46,29 +38,53 @@
 
 .icones-barranav{
     margin: 0 10px;
+    color: white;
 }
 
 .barra-nav-template{
-    height: 70px;
+    height: 180px;
     padding-top: 70px;
     text-align: center;
     display: flex;
     position: fixed;
+    background-color: white;
+}
+.barra-nav-compras{
+    height: 140px;
+    padding-top: 70px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    background-color: white;
 }
 
-.barra-nav{
+.barra-nav-home{
     border: 0.5px solid #93A9D1;
     height: 70px;
     width: 100vw;
     display: flex;
     font-weight: 400;
+    align-items: center; 
+    justify-content: center;
+
 }
 
 .link-header{
     color: black;
     margin: 0 30px;
+    font-size: 20px;
+    text-align: center;
 }
 
-a:hover{
-    color: #93A9D1;
+.area-texto-joias{
+    display: flex;
+    position: fixed;
+    padding-top: 70px;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto-joias{
+    font-size: 25px;
+    font-weight: 200;
 }

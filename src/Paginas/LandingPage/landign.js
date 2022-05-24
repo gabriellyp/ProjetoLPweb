@@ -17,11 +17,11 @@ export function LandingPage(){
                 <img className="img-logo" src={logo}/>            
             </div>
 
-            <nav className="barra-nav">
-                <a className="link-header">Home</a>
-                <a className="link-header">Catálogo</a>
-                <a className="link-header">Contato</a>
-                <a className="link-header">Sobre</a>
+            <nav className="barra-nav-ld">
+                <a className="links-navegacao-ld">Home</a>
+                <a className="links-navegacao-ld">Catálogo</a>
+                <a className="links-navegacao-ld">Contato</a>
+                <a className="links-navegacao-ld">Sobre</a>
             </nav>
             <div className="button-header">
                 <button className="btn-cadastro-header">Cadastro</button>
@@ -63,7 +63,7 @@ export function LandingPage(){
                 </div>
                 
             </div>
-            <h3>Ir para o Catálogo</h3>
+            <a className="link-catalogo">Ir para o Catálogo</a>
         </div>
         <div className="container-quemsomos">
             <div className="info-quemsomos">
@@ -100,3 +100,4 @@ export function LandingPage(){
     
     )
 }
+export default LandingPage

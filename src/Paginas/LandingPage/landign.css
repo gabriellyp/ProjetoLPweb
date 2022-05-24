@@ -24,7 +24,7 @@
     margin-left: 30px;
 }
 
-.barra-nav{
+.barra-nav-ld{
     height: 70px;
     width: 60vw;
     align-items: center;
@@ -32,9 +32,10 @@
     justify-content: center;
 }
 
-.link-header{
+.links-navegacao-ld{
     font-size: 20px;
     margin: 0 10px;
+    color: white;
 }
 
 .button-header{
@@ -125,15 +126,13 @@
     line-height: 20px;
 }
 
-h3{
-    direction: rtl;
+.link-catalogo{
+    display: flex;
     padding-top: 20px;
     color: #FF9900;
     margin-right: 20px;
-}
-
-a{
-    color: #FF9900;
+    font-size: 18px;
+    justify-content: flex-end;
 }
 
 .container-quemsomos{
@@ -154,7 +153,6 @@ a{
 
 .img-quemsomos{
     width: 400px;
-    
 }
 
 .info-quemsomos h2{
@@ -165,7 +163,6 @@ a{
 
 .texto-quemsomos{
     margin: 10px;
-
 }
 
 .container-contatos{

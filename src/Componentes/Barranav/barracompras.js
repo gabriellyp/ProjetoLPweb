@@ -6,7 +6,7 @@ import { Input, Space} from 'antd';
 const { Search } = Input;
 const onSearch = (value) => console.log(value);
 
-export function Barranav(){
+export function Barracompras(){
     return(
         <div>
             <div className="main-header-barra">
@@ -30,16 +30,13 @@ export function Barranav(){
                 <div className='icones-barranav'><UserOutlined style={{fontSize: '28px'}}/></div>      
             </div>
         </div>
-        <div className='barra-nav-template'>
+        <div className='barra-nav-compras'>
         <nav className="barra-nav-home">
                 <a className="link-header">Anéis</a>
                 <a className="link-header">Brincos</a>
                 <a className="link-header">Colares</a>
                 <a className="link-header">Pulseiras</a>
         </nav>
-        <div className='area-texto-joias'>
-                <p className='texto-joias'>Conheça aqui nossa coleção</p>
-        </div>
         </div>
 
         </div>
@@ -47,5 +44,5 @@ export function Barranav(){
     )
 }
 
-export default Barranav
+export default Barracompras
 

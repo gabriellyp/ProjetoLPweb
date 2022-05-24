@@ -30,12 +30,11 @@ export function Home(){
     return(
         <div>
             <Barranav/>
-            <div className='area-texto-joias'>
-                <p className='texto-joias'>Conheça aqui nossa coleção</p>
-            </div>
             <div className='carrosel'>
                <Carrousel produtos={produtos}/>
             </div>
         </div>
     )
 }
+
+export default Home
