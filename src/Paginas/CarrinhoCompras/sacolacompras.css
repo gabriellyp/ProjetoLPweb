@@ -1,0 +1,43 @@
+.container-sacola{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-de-navegacao{
+    height: 20vh;
+}
+
+.grupo-quantidade{
+    display: flex;
+}
+
+.container-produtos-sacola{
+    height: 60vh;
+    width: 800px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: auto; 
+}
+
+.imagem-sacola-compras{
+    width: 70px;
+}
+
+.tabela-podutos-sacola{
+    width: 800px;
+}
+
+Td{
+    text-align: center;
+}
+
+.site-card-border-less-wrapper {
+    padding: 10px;
+    border: 0.5px solid #ececec;
+}
+
+.botao-finalizar-compra{
+
+    margin: 200px 325px 0;
+}

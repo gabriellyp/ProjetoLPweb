@@ -6,6 +6,8 @@ import {history} from '../../history'
 import React from 'react'
 import { Router, Switch, Route} from 'react-router-dom'
 import { RealizarCompra } from '../../Paginas/RealizarCompra/RealizarCompra'
+import { SacolaCompras } from '../../Paginas/CarrinhoCompras/sacolacompras'
+import { ListarProduto } from '../../Paginas/ListarProdutoAdm/listarprod'
 
 export function Rotas(){
     return(
@@ -16,6 +18,8 @@ export function Rotas(){
             <Route component={Home} exact path="/Home"/>
             <Route component={LandingPage} exact path='/'/>
             <Route component={RealizarCompra} exact path='/Comprar'/>
+            <Route component={SacolaCompras} exact path={'/Carrinho'}/>
+            <Route component={ListarProduto} exact path={'/ListarProdutoAdm'}/>
         </Switch>
     </Router>   
     )

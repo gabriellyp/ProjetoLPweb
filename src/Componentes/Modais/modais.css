@@ -1,0 +1,21 @@
+.botao-finalizar{
+    background-color: #93A9D1;
+    border: 1px solid #93A9D1;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.botao-confirmar-modal{
+    background-color: #93A9D1;
+    border: 1px solid #93A9D1;
+    border-radius: 10px;
+}
+
+.botaoaddprod{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}

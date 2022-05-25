@@ -8,10 +8,11 @@ import escapulario from '../../Assets/imagens/Escapulario.jpg'
 import colarestrela from '../../Assets/imagens/Colarestrelas.jpg'
 
 class Produto{
-    constructor(nome, preco, foto){
+    constructor(nome, preco, foto, descricao){
         this.nome = nome;
         this.preco = preco;
         this.foto = foto;
+        this.descricao = descricao;
     }
 }
 
