@@ -44,7 +44,7 @@ export function Login(){
                             <p>Esqueceu a senha? <a href="#">Recuperar.</a></p>
                         </div>  
                         <div className="titulo-cadastro">
-                            <p>Não possui cadastro? <a href="#">Cadastre-se.</a></p>
+                            <p>Não possui cadastro? <a href="http://localhost:3000/Cadastro">Cadastre-se.</a></p>
                         </div>            
                     </div>
                 </Form>

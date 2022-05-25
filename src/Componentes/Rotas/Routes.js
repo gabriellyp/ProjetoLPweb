@@ -8,7 +8,8 @@ import { Router, Switch, Route} from 'react-router-dom'
 import { RealizarCompra } from '../../Paginas/RealizarCompra/RealizarCompra'
 import { SacolaCompras } from '../../Paginas/CarrinhoCompras/sacolacompras'
 import { ListarProduto } from '../../Paginas/ListarProdutoAdm/listarprod'
-
+import {EsqueceuSenha} from '../../Paginas/Esqueceu/Esqueceu'
+ 
 export function Rotas(){
     return(
     <Router history={history}> 
@@ -20,6 +21,7 @@ export function Rotas(){
             <Route component={RealizarCompra} exact path='/Comprar'/>
             <Route component={SacolaCompras} exact path={'/Carrinho'}/>
             <Route component={ListarProduto} exact path={'/ListarProdutoAdm'}/>
+            <Route component={EsqueceuSenha} exact path='/EsqueceuSenha'/>
         </Switch>
     </Router>   
     )
